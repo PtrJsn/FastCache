@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCache", "FastCache\FastCache.csproj", "{92C51973-52B8-475C-AE69-D0540DA9DD93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCacheConsumer", "FastCacheConsumer\FastCacheConsumer.csproj", "{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C51973-52B8-475C-AE69-D0540DA9DD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C51973-52B8-475C-AE69-D0540DA9DD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C51973-52B8-475C-AE69-D0540DA9DD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C51973-52B8-475C-AE69-D0540DA9DD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
