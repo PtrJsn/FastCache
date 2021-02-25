@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCache", "FastCache\FastCache.csproj", "{92C51973-52B8-475C-AE69-D0540DA9DD93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastCache", "FastCache\FastCache.csproj", "{92C51973-52B8-475C-AE69-D0540DA9DD93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCacheConsumer", "FastCacheConsumer\FastCacheConsumer.csproj", "{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastCacheConsumer", "FastCacheConsumer\FastCacheConsumer.csproj", "{F8DEABFC-4F0B-4B80-A6FB-5D12D8D0A979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0298DE04-505E-4234-B44F-C98736F41475}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E8A723-A4D5-44F0-AEDB-319D03CC691E}
 	EndGlobalSection
 EndGlobal
