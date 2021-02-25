@@ -52,7 +52,7 @@ namespace PtrJsn.FastCacheConsumer
 
         private static void RunStringStringTest()
         {
-            MemoryCache<string, string> cache = new MemoryCache<string, string>
+            MemoryCache<string, string> cache = new()
             {
                 CacheSize = 10,
                 SetSize = 2,

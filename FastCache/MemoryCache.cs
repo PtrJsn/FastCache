@@ -96,10 +96,7 @@ namespace PtrJsn.FastCache
 
             InitializeCache();
 
-            if (ReplacementPolicy == null)
-            {
-                ReplacementPolicy = new LeastRecentlyUsedReplacementPolicy<TKey, TValue>();
-            }
+            ReplacementPolicy ??= new LeastRecentlyUsedReplacementPolicy<TKey, TValue>();
 
             _initialized = true;
         }
@@ -172,7 +169,7 @@ namespace PtrJsn.FastCache
                 throw new InvalidOperationException("The cache must be initialized before use.");
             }
 
-            CacheItem<TKey, TValue> newCacheItem = new CacheItem<TKey, TValue>
+            CacheItem<TKey, TValue> newCacheItem = new()
             {
                 Key = key,
                 Value = value,
